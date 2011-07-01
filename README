@@ -1,0 +1,14 @@
+Fakelabel is a jQuery plugin that inserts a label inside your :input
+
+Usage
+
+In HTML:
+1 - Add the data-label attribute to the :input you want with a fakelabel.
+<input id="input_id" "type="text" data-label="Name">
+
+2 - Add the following JS code to transform that field in a "fake label":
+$('#input_id').fakelabel();
+
+3 - Before saving the form, remove the label with the following code, considering that form_id is the id attribute of the form:
+$('#form_id).removeDefaults();
+
